@@ -1,5 +1,6 @@
 package com.juaracoding.FYI_JavaWeb.handler;
 
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.juaracoding.FYI_JavaWeb.utils.ConstantMessage;
 import org.springframework.http.HttpStatus;
@@ -33,7 +34,7 @@ public class ApiError {
 //        this.debugMessage = ex.getMessage();
     }
 
-//    ApiError(HttpStatus serverResponse, String message, Throwable ex,String path,String errorCode) {
+    //    ApiError(HttpStatus serverResponse, String message, Throwable ex,String path,String errorCode) {
     ApiError(HttpStatus serverResponse, String message, Throwable ex,String path,String errorCode) {
         this();
         this.serverResponse = serverResponse;

@@ -7,7 +7,6 @@ Created on 2/27/2023 10:32 PM
 @Last Modified 2/27/2023 10:32 PM
 Version 1.0
 */
-
 import com.juaracoding.FYI_JavaWeb.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 

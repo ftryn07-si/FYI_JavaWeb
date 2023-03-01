@@ -9,6 +9,7 @@ Version 1.0
 */
 
 import com.juaracoding.FYI_JavaWeb.model.Employee;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EmployeeRepo extends JpaRepository<Employee, Long> {

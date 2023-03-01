@@ -1,5 +1,7 @@
 package com.juaracoding.FYI_JavaWeb.configuration;
 
+
+
 import com.juaracoding.FYI_JavaWeb.core.Crypto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

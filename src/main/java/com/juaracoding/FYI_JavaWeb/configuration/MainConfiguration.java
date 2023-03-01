@@ -1,5 +1,6 @@
 package com.juaracoding.FYI_JavaWeb.configuration;
 
+
 import com.juaracoding.FYI_JavaWeb.core.Crypto;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

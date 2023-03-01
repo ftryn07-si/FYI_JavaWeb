@@ -9,6 +9,7 @@ Version 1.0
 */
 
 
+
 import org.apache.log4j.Logger;
 
 public class LoggingFile {

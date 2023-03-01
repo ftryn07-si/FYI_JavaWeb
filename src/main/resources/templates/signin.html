@@ -6,6 +6,10 @@
   <link th:href="@{/styles/style.css}" rel="stylesheet" />
   <link th:href="@{/styles/login.css}" rel="stylesheet" />
   <title>Document</title>
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="4d19f38b-4151-412f-9d64-012dd72f773e";
+  (function(){d=document;s=d.createElement("script");
+  s.src="https://client.crisp.chat/l.js";s.async=1;
+  d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </head>
 <body>
 <div class="container">
@@ -14,11 +18,13 @@
       <h1>Sign In</h1>
       <div>
         <label for="username">Username:</label>
-        <input type="text" th:field = "*{username}" name="username" />
+        <input type="text" th:field = "*{username}" name="username"
+               required />
       </div>
       <div>
         <label for="password">Password:</label>
-        <input type="password" th:field = "*{password}" name="password" />
+        <input type="password" th:field = "*{password}" name="password"
+               required />
       </div>
       <div>
         <button type="submit">Sign In</button>

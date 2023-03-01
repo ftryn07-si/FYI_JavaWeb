@@ -8,6 +8,7 @@ Created on 2/27/2023 8:01 PM
 Version 1.0
 */
 
+
 import com.juaracoding.FYI_JavaWeb.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -59,7 +60,6 @@ public class CheckPageController {
         return "index";
 
     }
-
 
 
 }

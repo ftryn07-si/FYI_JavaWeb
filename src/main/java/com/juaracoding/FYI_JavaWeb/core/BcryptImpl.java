@@ -8,6 +8,7 @@ Created on 2/27/2023 10:20 PM
 Version 1.0
 */
 
+
 import java.util.function.Function;
 
 public class BcryptImpl {
